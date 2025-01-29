@@ -3,7 +3,7 @@ import logo from '../asset/img/logo.jpg'
 function Header() {
   return (
     <div className='header'>
-        <img src='logo' alt='logo'/>
+        <img src={logo} alt='logo'/>
      <h2>Expense Tracker</h2>
 
     </div>
